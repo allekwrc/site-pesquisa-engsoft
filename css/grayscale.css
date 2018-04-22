@@ -43,12 +43,12 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: grey;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: darkslategrey;
 }
 
 #mainNav {
@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url("../img/ppg.gif") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -184,9 +184,29 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
-.download-section {
+.git-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../img/gitimage2.jpg") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.svn-section {
+  color: white;
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/svnimage2.jpg") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.qdd-section {
+  color: white;
+ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/svngit.gif") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
