@@ -11,6 +11,9 @@ html {
   width: 100%;
   height: 100%;
 }
+p{
+    text-align:justify;
+}
 h1,
 h2,
 h3,
