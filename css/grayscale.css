@@ -322,3 +322,8 @@ img::-moz-selection {
 .divSquare {
         width:48%; height:200px; margin:4px; border:1px solid black; float: left;        
 }
+span.emoji {
+  font-size: 60px;
+  vertical-align: middle;
+  line-height: 2;
+}
