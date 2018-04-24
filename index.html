@@ -117,24 +117,24 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>GIT</h2>
-            <p align = "justify">
+            <p>
                 O Git é um sistema de controle de versão, projetado basicamente para facilitar a vida de quem quer executar projetos em equipe, permitindo que duas ou mais pessoas trabalhem juntas. Mas também é utilizado por quem trabalha sozinho, devido a possibilidade de ‘controlar’ as versões do projeto.
             </p>
-            <p align = "justify">
+            <p>
                 Um sistema de controle de versão faz o papel de “juntar” as partes do projeto, de modo que, cada membro da equipe faça uma parte, e, utilizando este sistema seja possível juntar tudo no final.
             </p>
-            <p align = "justify">
+            <p>
                 É claro que ele é bem mais complexo, mas o conceito inicial é este, cada membro da equipe tem sua pasta do Site, trabalha durante o dia, e no final o Git junta tudo em uma pasta no servidor ‘Principal’, evitando que arquivos sejam sobrescritos e também armazenando históricos e logs individuais de cada membro da equipe.
             </p>
-            <p align = "justify">
+            <p>
                 Outra vantagem do git é a possibilidade de controlar o projeto de forma descentralizada, ou seja, sem a exigência de um servidor ‘Mestre’.
             </p>            
-            <p align = "justify">
+            <p>
                 O git permite a criação de várias ‘Áreas de trabalhos’, ou seja, podemos criar para o mesmo projeto, uma pasta para o site em desenvolvimento, outra para testes e outra oficial, onde fica o projeto em produção.Com isto, você pode testar seu site bem antes de colocar em produção, e não corre o risco de alguma funcionalidade que não esteja concluída aparecer para seus visitantes.Como o git armazena histórico de cada alteração, com o projeto em execução, mesmo que seja necessário efetuar alterações, é possível desfazê-las com um único comando, como se fosse um “CTRL+Z”, caso algo dê errado.
-              </p>              
-              <p align = "justify">
+            </p>              
+            <p>
                 O Git traz muitas vantagens na sua utilização, mas posso afirmar que o trabalho em equipe fica muito mais seguro e divertido com ele. Separamos nossa equipe em programadores e desenvolvedores front-end, com isto, conseguimos que, durante o mesmo periodo, pessoas diferentes criem a programação e o visual do site. No final do dia o git faz todo o trabalho de juntar os arquivos, mostrar se existe algum conflito e em seguida efetuar o deploy.
-              </p>              
+            </p>              
           </div>
         </div>
       </div>
@@ -145,19 +145,22 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>SUBVERSION</h2>
-            <h3>O SVN utiliza o conceito de branches, tags e trunk:</h3>
-                <h4>Trunk</h4>
-                    <p align = "justify">
-                        Pasta que contém os projetos que estão em desenvolvimento. Todas as atualizações efetuadas dia-a-dia são armazenadas nesta pasta.
-                    </p>
-                    <h4>Branches</h4>
-                        <p align = "justify">
-                            Pasta que contém “linhas de desenvolvimento” de tal projeto, que entre elas pode haver poucas diferenças, porém uma independe da outra. Quando o projeto está pronto para ser liberado como uma versão estável, a pasta trunk é copiada para a pasta branch e dado um nome de versão. Este branch é congelado, não sofrendo mais alterações, apenas correções. Os testes são efetuados
-                        </p>
-                    <h4>Tags</h4>
-                        <p align = "justify">
-                            Quando os testes efetuados na branch estão completos, a versão que se encontra na branch é copiada para a pasta tags, criando a “release”. A pasta tag é empacotada e enviada para o cliente. Qualquer modificação em branch, deve ser copiada para a pasta de tags, após todos os testes. O SVN considera tag apenas uma variação de um branch, e na prática é exatamente como um branch, apenas uma cópia da ramificação atual da árvore.
-                        </p>
+            
+            O SVN utiliza o conceito de branches, tags e trunk:
+            <br><br><br>
+            
+            <h5>Trunk</h5>
+                <p>
+                    Pasta que contém os projetos que estão em desenvolvimento. Todas as atualizações efetuadas dia-a-dia são armazenadas nesta pasta.
+                </p>
+            <h4>Branches</h4>
+                <p>
+                    Pasta que contém “linhas de desenvolvimento” de tal projeto, que entre elas pode haver poucas diferenças, porém uma independe da outra. Quando o projeto está pronto para ser liberado como uma versão estável, a pasta trunk é copiada para a pasta branch e dado um nome de versão. Este branch é congelado, não sofrendo mais alterações, apenas correções. Os testes são efetuados
+                 </p>
+            <h4>Tags</h4>
+                <p>
+                     Quando os testes efetuados na branch estão completos, a versão que se encontra na branch é copiada para a pasta tags, criando a “release”. A pasta tag é empacotada e enviada para o cliente. Qualquer modificação em branch, deve ser copiada para a pasta de tags, após todos os testes. O SVN considera tag apenas uma variação de um branch, e na prática é exatamente como um branch, apenas uma cópia da ramificação atual da árvore.
+                </p>
         </div>
       </div>
     </section>
@@ -168,65 +171,66 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Qual dos dois utilizar?</h2>
-            <p><img src="../img/Gitvssvn.png" alt="Smiley face" height=25% width=100%></p>
-            <p align = "justify">
-                Segundo alguns artigos online afirmam que Git não é melhor que Subversion, mas também não seria pior que ele. Ele é apenas diferente. E ele enumera os seguintes argumentos a seguir:
+            <img src="../img/gitsvn.jpg" alt="Tabela SVN vs GIT" height=25% width=100%>
+            <p>
+                Pegando carona em <a href="https://stackoverflow.com/questions/871/why-is-git-better-than-subversion">algumas opiniões</a>, vamos afirma que Git não é melhor que Subversion, mas também não é pior que esse. Ele é apenas diferente. Mas diferente como? A chave para a diferença se chama <strong>descentralização</strong>. 
             </p>
-            <p align = "justify">
-                A chave para a diferença é apenas descentralizada. Imagine que você está desenvolvendo na estrada, e claro está programando em seu notebook e você claramente quer ter controle sobre o seu código fonte para que você possa verificar algo feito há três horas atrás.
+            <p>
+                Imagine que você está desenvolvendo um projeto fora do seu ambiente de trabalho e você quer ter controle sobre o seu código-fonte para que possa verificar algo feito há três horas atrás...
             </p>
-            <p align = "justify">
-                Com o Subversion, isso seria um problema. O SVN repositório poderia está em uma localização inacessível (na sua empresa, e você está sem internet no momento). Então, se você deseja a cópia desse código, você literalmente tem que copiar e colar ele.
+            <p>
+                Com o Subversion isso seria um problema. O seu repositório SVN poderia estar em uma localização inacessível (na sua empresa) ou você poderia estar sem internet no momento. Então, se você deseja a cópia desse código, você terá que copiar e colar ele e leva-lo com você.
             </p>
-            <p align = "justify">
-                O que não ocorre com o Git, Sua cópia local nada mais é que um repositório, e você está hábil e possui total controle de seu código. E logo que você entrar em conexão novamente, tudo será feito o update.
+            <p>
+                Isso não ocorre com o Git, Sua cópia local nada mais é que um repositório, e você está hábil e possui total controle de seu código. E logo que você entrar em conexão novamente, tudo será feito o update. Com o Git, você pode fazer qualquer coisa offline porque cada um possui seu próprio repositório.
             </p>
-            <p align = "justify">
-                Com o Git, você literalmente pode fazer qualquer coisa offline, porque cada u possui seu próprio repositório.
+            <p>
                 Fazer ramos e mesclar entre os ramos é extremamente simples.
-                Contudo, nem tudo são flores para o Git e vamos verificar algumas desvantagens:
-                É mais difícil de aprender, devido ao fato do Git possuir mais conceitos e mais comandos
-                As revisões não tem um número de versão como as subversões
-                Alguns comandos do Git são enigmáticos, e as mensagens de erro não são amigáveis ao usuário
-                Falta uma boa interface gráfica comparado ao TortoiseSVN
-                Uma das mais notáveis diferenças quando um usuário troca de plataforma para o Git é a velocidade. Devido ao fato que todo o repositório é alocado na própria máquina do usuário.
-            <p>          
+                Contudo, nem tudo são flores para o Git.
+                Alguns comandos do Git são enigmáticos, e as mensagens de erro não são amigáveis ao usuário. Dessa forma, o SVN acaba fornecendo uma experiência mais <em>friendly-user</em>.
+            <p>
+                Então, depois de todo esse blablabla, qual você deve escolher? A resposta pra isso é: <strong>depende do seu uso</strong>. Se você for um <em>hard-user</em> e/ou está em um projeto com muitas outras pessoas ou apenas for uma pessoa curiosa, vale a pena dar uma olhada em serviços que utilizam o Git como o <a href="https://github.com/">GitHub</a> ou o <a href="https://gitlab.com/">GitLab</a> entre outros. Mas se você estiver em um projeto de menor porte ou apenas nâo quer perder um tempo aprendendo os comandos do Git, recorra ao seu serviço SVN preferido.
+            </p>
+            <p>
+                Entendido? Ficou alguma dúvida? Se sim, entre em contato conosco pelos links da aba abaixo.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Colaboradores -->
-    <section id="colabora" class="download-section content-section text-center">
+    <section id="colabora" class="content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Colaboradores</h2>    
-
             <div class="divSquare">
-                <p>
-                    <img class="imgcicle" src="img/Allek.jpg" alt="[Allek Correia]" height=25% width=50%>
-                </p>
+                <img class="imgcicle" src="img/Allek.jpg" alt="[Allek Correia]" height=25% width=50%>
+                    <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                          <i class="fa fa-twitter fa-fw"></i>
+                          <span class="network-name">Twitter</span>
+                    </a>    
             </div>
             
             <div class="divSquare">
-                <p>
+                
                     <img class="imgcicle" src="img/Anderson.jpg" alt="[Anderson Muriell]" height=25% width=50%>
-                </p>
+                
             </div>
             
             <div style='clear:both'></div>
             
             <div class="divSquare">
-                <p>
+            
                 <img class="imgcicle" src="img/Silvio.jpg" alt="[Silvio Junior]" height=25% width=50%>
-                </p>
+            
             </div>
             
             <div class="divSquare">
-                <p>
+            
                 <img class="imgcicle" src="img/Yuri.jpg" alt="[Yuri Sanchez]" height=25% width=50%>
-                </p>
-            </div>            
+            
+            </div>          
         </div>
       </div>
     </section>
@@ -235,7 +239,7 @@
     <!-- Rodapé -->
     <footer>
       <div class="container text-center">
-        <p>Copyright &copy; Állek Correia, Anderson Muriell, Silvio jr. e Yuri Sanchez - UnP 2018.1</p>
+        <span>Copyright &copy; Állek Correia, Anderson Muriell, Silvio Junior e Yuri Sanchez - UnP 2018.1</span>
       </div>
     </footer>
 

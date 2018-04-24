@@ -11,8 +11,19 @@ html {
   width: 100%;
   height: 100%;
 }
+
+img{
+    text-align: center;
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+    
+}
 p{
     text-align:justify;
+}
+span{
+    text-align: center;
 }
 h1,
 h2,
@@ -314,8 +325,8 @@ img::-moz-selection {
   background: transparent;
 }
 .imgcicle {    
-	width: 180px;
-	height: 180px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 
 }
