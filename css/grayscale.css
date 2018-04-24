@@ -209,7 +209,7 @@ a:focus, a:hover {
 
 .git-section {
   color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../img/gitimage2.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../img/Git.png") no-repeat center center scroll;    
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
