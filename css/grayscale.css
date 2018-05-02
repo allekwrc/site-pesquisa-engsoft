@@ -197,6 +197,10 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
+.content {
+  padding-bottom: 50px;
+}
+
 .oqs-section {
   color: white;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("") no-repeat center center scroll;
@@ -237,10 +241,6 @@ a:focus, a:hover {
     background-size: cover;    
 }
 
-#map {
-  width: 100%;
-  height: 300px;
-}
 
 @media (min-width: 992px) {
   .content-section {
@@ -331,7 +331,14 @@ img::-moz-selection {
 
 }
 .divSquare {
-        width:48%; height:200px; margin:4px; border:1px solid black; float: left;        
+    width:48%; 
+    height:200px; 
+    margin:4px; 
+    border:1px solid black; 
+    float: right;
+    padding-bottom: 215px;
+    vertical-align: middle;
+    line-height: 2;
 }
 span.emoji {
   font-size: 60px;
